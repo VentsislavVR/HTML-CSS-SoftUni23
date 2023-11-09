@@ -1,7 +1,4 @@
-Home
-Library
-Applications
-Settings
-Checkout
-Info
-Delete
+
+
+
+
