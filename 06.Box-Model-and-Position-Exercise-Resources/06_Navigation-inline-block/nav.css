@@ -1,0 +1,47 @@
+html {
+    font-family: Helvetica, sans-serif;
+}
+header{
+    padding: 2em;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #cccccc;
+}
+
+h1, nav {
+    display: inline-block;
+    border: 3px solid red;
+}
+
+h1 {
+    margin: 0;
+    position: relative;
+}
+
+nav {
+    margin-left: 20px;
+    position: absolute;
+    transform: translateY(0px);
+
+}
+
+ul {
+    text-align: right;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+    text-align: right;
+    padding: 0.5em 0.5em 0.5em;
+
+}
+a{
+    color: green;
+    font-size: 0.8em;
+    text-decoration: none;
+}

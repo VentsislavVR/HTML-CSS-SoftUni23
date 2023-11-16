@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0
+}
+*{
+    box-sizing: inherit;
+}
+html{
+    box-sizing: border-box;
+}
+div {
+    width:33%;
+    height: 10em;
+    display: inline-block ;
+    padding-top: 16px;
+    padding-right: 16px;
+    padding-bottom: 16px;
+    padding-left: 32px;
+    margin-top: 20px;
+    border: 2px solid red;
+    color: #fff;
+    background-color: #0A2C48;
+}
+div:hover{
+    background-color: #2A4C68;
+}
+h3{
+    text-align: left;
+    padding-left: 30px;
+
+}
+p{
+    text-align: center;
+    padding:1em;
+    color: #c9d6ff;
+    font-size:19px;
+}
