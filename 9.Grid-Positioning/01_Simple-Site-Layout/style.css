@@ -1,5 +1,12 @@
-body {
-    max-width: 50%;
+body{
+    border-radius: 3px;
+    background: rgb(181, 216, 255);
+    padding: 5px 10px;
+}
+
+
+.container{
+    max-width: 100%;
     display: grid;
 
     grid-template-areas:
@@ -18,7 +25,7 @@ h1 {
     vertical-align: middle;
 }
 
-ul {
+aside ul {
     list-style-type: none;
     margin: 0;
     padding: 5px;
