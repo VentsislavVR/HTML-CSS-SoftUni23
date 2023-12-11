@@ -3,6 +3,9 @@ body {
     background-color: #070E27;
     color: #fff;
 }
+p{
+    color: #7e8bb6;
+}
 /*bg #070E27
 bg light #162044
 primary 070E27
@@ -17,6 +20,7 @@ gray #7e8bb6
     border-bottom: 1px solid #7e8bb6;
     position: sticky;
     top: 0;
+    background-color: #070E27;
 }
 .header .navigation{
     margin-left: auto;
@@ -33,7 +37,9 @@ gray #7e8bb6
     text-transform: uppercase;
     letter-spacing: 1px ;
 }
-.header .login-btn{
+/*BUTTONS */
+
+.btn {
     border: none;
     border-radius: 4px;
     background-color: #162044;
@@ -41,8 +47,86 @@ gray #7e8bb6
     padding: 8px 20px;
     cursor: pointer;
 }
+.btn.btn-primary{
+    background-color: #0059F7;
+}
 
-.navigation{
+/*  Hero */
+#hero {
+    padding: 70px 64px;
+}
+#hero .welcome {
+    max-width: 900px;
+    margin: 0 auto 48px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
+#hero .welcome >*{
+    width: 45%;
+}
+
+#hero .hero-img{
+    margin: 0 auto 48px auto;
+}
+
+#hero .welcome .title {
+    font-size: 48px;
+    line-height: 1.2;
+}
+
+#hero .welcome .info {
+    margin-bottom: 12px;
+}
+#hero .partners{
+    display: flex;
+    max-width: 900px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8px;
+}
+/*How section*/
+#how {
+    padding: 70px 64px;
 
 }
+#how .section-subtitle{
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+#how .section-title{
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 48px;
+}
+#how .row{
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    max-width: 900px;
+    margin: 0 auto 48px auto;
+
+}
+#how .row:last-child{
+    margin-bottom: 0;
+}
+
+#how .row:nth-child(even){
+        flex-direction: row-reverse;
+}
+
+#how .row-img{
+    width: 60%;
+}
+#how .row .title{
+    font-size: 24px;
+    margin-bottom: 12px;
+
+}
+#how .row .desc{
+    font-size: 14px;
+}
+
